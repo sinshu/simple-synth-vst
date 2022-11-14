@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>Nobuaki Tanaka</Authors>
+    <Platforms>x64;x86</Platforms>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference all of Windows Forms -->
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="VST.NET2-Plugin" Version="2.1.0" />
+  </ItemGroup>
+</Project>
